@@ -14,7 +14,7 @@ pipeline {
                 bat '''
                 echo Test Step: Activating venv and running pytest
 
-                lab7\\Scripts\\python.exe -m pytest
+                RAIE_Lab7\\Scripts\\python.exe -m pytest
 
                 REM Remove the exit 1 below once everything is working
                 REM exit 1
